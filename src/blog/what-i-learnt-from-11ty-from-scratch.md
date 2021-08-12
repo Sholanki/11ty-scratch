@@ -15,3 +15,4 @@ This is what I am learning of 11ty till now:
 2. .eleventy.js controls the functionality of 11ty and basic scripts that are running inside 11ty can be written here.
 3. Templating can be done with help of nunjucks file.
 4. Collection of posts can be templated with help of json file
+5. MD files do not support njk syntax. Made the tweak of including blog.njk file and containing the njk file in it. The CSS files got disrupted because of file heirarchy. I will need to search a simple solution for that.
