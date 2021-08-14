@@ -16,3 +16,5 @@ This is what I am learning of 11ty till now:
 3. Templating can be done with help of nunjucks file.
 4. Collection of posts can be templated with help of json file
 5. MD files do not support njk syntax. Made the tweak of including blog.njk file and containing the njk file in it. The CSS files got disrupted because of file heirarchy. I will need to search a simple solution for that.
+6. templateEngineOverride makes it all simpler - no inclusion of extra njk files in md. I used it once to include njk in md file. Making me think of scrapping the extra njk files and cleaning up my code
+7. With the help of axios, I can use to get data from url and iterate it
