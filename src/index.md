@@ -1,12 +1,13 @@
 ---
-title: "First page"
+title: "Hello First"
 layout: "base.njk"
-templateEngineOverride: njk, md
+templateEngineOverride: njk,md
 ---
 
-This is home page.
+This is a home page.
 
 ## From the Blog
-{% for post in collections.post | randomPost %}
-    <a href="{{ post.url }}">{{ post.data.title }}</a>
-{% endfor %}
+
+{% for post in collections.posts | randomPost -%}
+<a href="{{ post.url }}">{{ post.data.title }}</a>
+{%- endfor -%}
